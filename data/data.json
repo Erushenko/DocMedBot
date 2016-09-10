@@ -1,0 +1,65 @@
+{
+  "typeDocs":[
+    {"name":"docСertificate",
+     "description":"Заказать лікарняний ліст",
+     "googleURLForm":"https://docs.google.com/forms/d/e/1FAIpQLSdTHy1TdkbUhqCk3I12PHSXB_YjBD07B4VMsSVkMHXzshz0Pg/formResponse",
+     "interview":[
+       {
+         "item":"0",
+         "question":"Ваше ФИО:",
+         "answer":"нет ответа",
+         "typeAnswer":"string",
+         "entry":"973205589"
+       },
+       {
+         "item":"1",
+         "question":"Дата рождения (ДД.ММ.ГГГГ):",
+         "answer":"нет ответа",
+         "typeAnswer":"Date",
+         "entry":["510197301_year","510197301_month","510197301_day"]
+       },
+       {
+         "item":"2",
+         "question":"Телефон:",
+         "answer":"нет ответа",
+         "typeAnswer":"string",
+         "entry":"2044799409"
+       }
+     ]
+   },
+   {"name":"medСertificate",
+    "description":"Заказать медичну довідку",
+    "googleURLForm":"https://docs.google.com/forms/d/e/1FAIpQLSfIqVCi9vpi4Mai2bvMz_n-yQhlPMeKmqRfNIkzWAYggoCCbw/formResponse",
+    "interview":[
+      {
+        "item":"0",
+        "question":"ФИО для медицинской справки:",
+        "answer":"нет ответа",
+        "typeAnswer":"string",
+        "entry":"1108589863"
+      },
+      {
+        "item":"1",
+        "question":"тел:",
+        "answer":"нет ответа",
+        "typeAnswer":"string",
+        "entry":"404213955"
+      },
+      {
+        "item":"2",
+        "question":"адрес проживания:",
+        "answer":"нет ответа",
+        "typeAnswer":"string",
+        "entry":"949173811"
+      },
+      {
+        "item":"3",
+        "question":"дата начала справки (ДД.ММ.ГГГГ):",
+        "answer":"нет ответа",
+        "typeAnswer":"Date",
+        "entry":["1791693825_year","1791693825_month","1791693825_day"]
+      }
+    ]
+   }
+  ]
+}
