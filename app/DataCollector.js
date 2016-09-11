@@ -24,7 +24,7 @@ function DataCollector(bot) {
     }
   }
   //extending
-  this.extend(require('./app/servicechat.js'));
+  this.extend(require('./app/servicechat'));
 }
 //  init
 DataCollector.prototype.init = function(chat, typeDoc) {
