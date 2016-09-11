@@ -1,1 +1,1 @@
-web: node ./DocMedBot.js
+web: node DocMedBot.js
