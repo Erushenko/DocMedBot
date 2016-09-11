@@ -1,0 +1,31 @@
+{
+  "name": "DocMedBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "array-includes": "^3.0.2",
+    "moment": "^2.14.1",
+    "node-fs": "^0.1.7",
+    "node-telegram-bot-api": "^0.23.3",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erushenko/DocMedBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erushenko/DocMedBot/issues"
+  },
+  "homepage": "https://github.com/Erushenko/DocMedBot#readme"
+}
