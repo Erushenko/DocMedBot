@@ -7,7 +7,7 @@ var moment = require('moment');
 var _ = require('lodash');
 
 function DataCollector(bot) {
-  this._data = JSON.parse(fs.readFileSync('../data/data.json', 'utf8'));
+  this._data = JSON.parse(fs.readFileSync('./data/data.json', 'utf8'));
 
   console.log(this.data);
   console.log('////////////////////////////////////////////////');
@@ -24,7 +24,7 @@ function DataCollector(bot) {
     }
   }
   //extending
-  this.extend(require('../app/servicechat.js'));
+  this.extend(require('./app/servicechat.js'));
 }
 //  init
 DataCollector.prototype.init = function(chat, typeDoc) {
