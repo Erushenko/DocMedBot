@@ -8,7 +8,8 @@ var DataCollector = require('./app/DataCollector');
 var TOKEN = '265307433:AAGzcK0GX6wRm9trhdJm-P61GMeRO3ZJLBg';
 // var USER = '62598705';
 
-var bot = new TelegramBot(TOKEN, {polling: {interval: 100}});
+// var bot = new TelegramBot(TOKEN, {polling: {interval: 100}});
+var bot = new TelegramBot(TOKEN, {polling: {}});
 // bot.getMe(msg);
 // console.log(msg);
 //require DataCollector
