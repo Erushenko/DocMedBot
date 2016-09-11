@@ -1,7 +1,7 @@
 
 'use strict';
 
-var Chat = require('./chat.js');
+var Chat = require('../app/chat.js');
 var _ = require('lodash');
 
 function ServiceChat() {}
