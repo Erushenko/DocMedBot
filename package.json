@@ -8,7 +8,7 @@
   },
   "main": "DocMedBot.js",
   "scripts": {
-    "start": "node JS/DocMedBot.js"
+    "start": "node ./app/DocMedBot.js"
   },
   "dependencies": {
     "array-includes": "^3.0.2",
