@@ -3,7 +3,7 @@
 
 //require TelegramBot
 var TelegramBot = require('node-telegram-bot-api');
-var DataCollector = require('app/DataCollector');
+var DataCollector = require('DataCollector');
 
 var TOKEN = '265307433:AAGzcK0GX6wRm9trhdJm-P61GMeRO3ZJLBg';
 // var USER = '62598705';
