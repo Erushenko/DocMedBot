@@ -6,6 +6,10 @@
   "directories": {
     "doc": "doc"
   },
+  "main": "DocMedBot.js",
+  "scripts": {
+    "start": "node DocMedBot.js"
+  },
   "dependencies": {
     "array-includes": "^3.0.2",
     "moment": "^2.14.1",
